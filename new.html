@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>new</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/render.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>问卷调查</h2>
+            <a class="return" href="index.html">我的问卷</a>
+        </div>
+    </div>
+    <div class="content clear" id="content">
+        <div class="paper">
+            <h3 class="title revise" contenteditable="true" id="title">这里是标题</h3>
+            <div class="paper-content" id="paper-content">
+                <div class="new-question" id="new-question-btn">
+                    <div class="choose-type" id="choose-type">
+                        <label class="qt"><input type="radio" name="q-type">单选</label>
+                        <label class="qt"><input type="radio" name="q-type">多选</label>
+                        <label class="qt"><input type="radio" name="q-type">文本框</label>
+                    </div>
+                    <h3 id="new-question">添加问题</h3>
+                </div>
+            </div>
+            <div class="content-footer">
+                <label for="time" class="date-label">
+                    问卷截止日期：
+                    <input type="text" id="time" placeholder="请输入xxxx-xx-xx" class="revise">
+                </label>
+                <button type="button" id="save" class="foot-btn">发布问卷</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/new.js"></script>
+</body>
+</html>

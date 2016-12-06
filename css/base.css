@@ -1,0 +1,87 @@
+﻿/*-----------------------------全局样式-------------------------------------*/
+@charset "utf-8"; 
+body, div, address, blockquote, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, h5, h6, p, pre, table, caption, th, td, form, legend, fieldset, input, button, select, textarea {margin:0; padding:0; border:0;}
+body{ font-weight: normal;font-style: normal;font-size: 100%;font-family: "微软雅黑", Arial, Tahoma; background:#fff; color:#222; }
+ol, ul ,li{list-style: none;} 
+a img,img {border: 0;vertical-align: middle;}
+a {text-decoration: none; color:#333}
+a:hover {color:#F60}
+a:focus {outline-style: none;}
+a,area {blr: expression(this.onFocus = this.blur () );}/*按下鼠标图片周边不会出现虚线，这个适合所有的浏览器*/
+ul li {list-style: none;}
+table {border-collapse: collapse;}
+th {white-space:nowrap; font-weight:bold}
+td {word-break:break-all;}
+input,select,textarea,button{vertical-align: middle;font-family:"微软雅黑"; background:none;}
+input,select{ height:24px;}
+label{cursor: pointer;}
+.clear:after{content:""; display:block; clear:both; visibility:hidden; height:0;}
+.clear{zoom:1;}
+.dis{display:block;} 
+.undis{display:none;}
+.form input{float: left;}
+/*-- div居左居右 --*/
+.left{ float:left}
+.right{ float:right}
+/*-- 1像素灰色边框 --*/
+.border{ border:1px solid #efe9ed}
+/*-- 背景颜色 --*/
+.background{ background:#FFF}
+/*-- 内间距 --*/
+.pad15{ padding:15px;}
+/*-- 外间距 --*/
+.margin{ margin:0 auto}
+/*-- 字体颜色 --*/
+.red{ color:#c7051c;}
+.orange{ color:#ff6600}
+.white{ color:#fff}
+.gray{ color:#666}
+.color333{color:#333;}
+.black{ color:#000}
+.green{ color:#0c514c}
+/*-- 字体大小 --*/
+.f12{ font-size:12px}
+.f14{ font-size:14px}
+.f16{ font-size:16px}
+.f20{ font-size:20px}
+.f30{ font-size:30px}
+.f40{ font-size:40px}
+/*-- 字体加粗 --*/
+.fbold{ font-weight:bold}
+/*-- 文字位置 --*/
+.tr{text-align:right}
+.tc{text-align:center}
+.tl{text-align:left}
+/*-- 阴影 --*/
+.shadow{-webkit-box-shadow:#ccc 0px 0px 8px;-moz-box-shadow:#ccc 0px 0px 8px;box-shadow:#ccc 0px 0px 8px;}
+/*-- 圆角 --*/
+.radius{border-radius:5px;}
+/*-- form --*/
+.input,.select,.textarea{line-height:24px;}
+/*-- 表格 --*/
+.table{ font-size:14px}
+.table th{ background:#eee;}
+/*-- 行高 --*/
+.lh23{ line-height:23px;}
+.lh26{ line-height:26px;}
+.lh28{ line-height:28px;}
+.lh37{ line-height:37px;}
+.lh40{ line-height:40px;}
+.lh45{ line-height:45px;}
+/*-- 外框宽度 --*/
+.wrapper1200{width:1200px; margin:0 auto;}
+.relative{ position:relative;}
+.absolute{position:absolute;}
+/*-- css3 --*/
+.t3out {transition: all 0.3s ease-out 0s;}
+
+
+input,button,textarea{outline: none}
+
+input{padding-left: 10px;border-radius:3px;}
+button{cursor: pointer;line-height: 12px;}
+
+textarea{border: 1px solid #333;width: 100%;}
+
+
+.revise:hover{outline: 1px solid #999999}

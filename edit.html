@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>edit</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/render.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>问卷调查</h2>
+            <a class="return" href="index.html">我的问卷</a>
+        </div>
+    </div>
+    <div class="content clear" id="content">
+        <div class="paper" id="paper">
+            <h3 class="title revise" id="title" contenteditable="true"></h3>
+            <div class="paper-content" id="paper-content">
+                <div class="new-question" id="new-question-btn">
+                    <div class="choose-type" id="choose-type">
+                        <label class="qt"><input type="radio" name="q-type">单选</label>
+                        <label class="qt"><input type="radio" name="q-type">多选</label>
+                        <label class="qt"><input type="radio" name="q-type">文本框</label>
+                    </div>
+                    <h3 id="new-question">添加问题</h3>
+                </div>
+            </div>
+            <div class="content-footer">
+                问卷截止日期：<span id="time" contenteditable="true" class="revise"></span>
+                <button type="button" id="save" class="foot-btn">保存</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/eidt.js"></script>
+</body>
+</html>
